@@ -1,3 +1,4 @@
+require_relative 'article'
 class Magazine
   attr_accessor :name, :category
    @@all = []
@@ -34,6 +35,4 @@ class Magazine
     uniq_authors = all_authors.uniq 
     uniq_authors.filter{|author| all_authors.count(author)>2}
   end
-
-
 end
