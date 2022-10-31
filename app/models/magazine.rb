@@ -1,18 +1,18 @@
 require_relative 'article'
 class Magazine
   attr_accessor :name, :category
-   @@all = []
+   @@all_magazines = []
 
   def initialize(name, category)
     @name = name
     @category = category
     @author = []
-    @@all << self
+    @@all_magazines << self
 
   end
    
   def self.all
-    @@all 
+    @@all_magazines 
   end
 
   def contributors 
