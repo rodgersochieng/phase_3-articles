@@ -18,12 +18,8 @@ article_2 = Article.new(author_1, magazine_2, "Kenyans Abroad")
 article_3 = Article.new(author_2, magazine_1, "Should I")
 article_4 = Article.new(author_2, magazine_2, "Life from the other side")
 
-pp author_1.articles
-pp author_2.articles
-
-
-
-
+p author_1
+p author_2
 
 
 

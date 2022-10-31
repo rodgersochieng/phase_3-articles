@@ -26,6 +26,6 @@ class Author
     magazines = @magazines.map do |magazine| 
       magazine.category
   end
-   magazines.uniq
+   magazines.uniq  
 end
 end
